@@ -1,0 +1,135 @@
+/* Universe Romantic Celestial Scrapbook Styles */
+
+/* Deep Cosmic Universe Background with Stars & Nebulae */
+.universe-cosmos {
+  background-color: #0C0A16;
+  background-image: 
+    radial-gradient(circle at 18% 22%, rgba(158, 71, 102, 0.22) 0%, transparent 45%),
+    radial-gradient(circle at 82% 78%, rgba(68, 56, 120, 0.26) 0%, transparent 50%),
+    radial-gradient(circle at 50% 45%, rgba(42, 28, 66, 0.45) 0%, transparent 65%),
+    radial-gradient(1.8px 1.8px at 45px 55px, #FFFFFF, rgba(0,0,0,0)),
+    radial-gradient(1.2px 1.2px at 160px 140px, #E8D7B0, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 270px 80px, #FCE7CF, rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 340px 260px, #D49AA8, rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 90px 290px, #FFFFFF, rgba(0,0,0,0));
+  background-size: 100% 100%, 100% 100%, 100% 100%, 280px 280px, 320px 320px, 380px 380px, 240px 240px, 350px 350px;
+  background-attachment: fixed;
+}
+
+/* Scrapbook Parchment Card Resting on Universe Canvas */
+.scrapbook-card {
+  background: linear-gradient(145deg, #FFFDF9 0%, #FAF5EB 60%, #F3EBDD 100%);
+  box-shadow: 
+    0 25px 60px rgba(0, 0, 0, 0.65), 
+    0 10px 25px rgba(0, 0, 0, 0.4),
+    inset 0 0 45px rgba(185, 145, 105, 0.12);
+}
+
+.scrapbook-card-dark {
+  background: linear-gradient(145deg, #1C182A 0%, #141122 100%);
+  border: 1px solid rgba(201, 169, 110, 0.35);
+  box-shadow: 
+    0 25px 60px rgba(0, 0, 0, 0.75), 
+    0 0 35px rgba(201, 169, 110, 0.15);
+}
+
+/* Typography Classes: Playfair Display, Poppins, Dancing Script */
+.font-playfair, .font-times, .font-serif {
+  font-family: "Playfair Display", Georgia, serif !important;
+}
+
+.font-poppins, .font-sans {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+.font-dancing, .font-cursive, .font-script {
+  font-family: "Dancing Script", cursive !important;
+}
+
+/* Torn paper borders */
+.torn-paper-edge-top {
+  clip-path: polygon(
+    0% 4px, 2% 0px, 5% 5px, 8% 1px, 12% 5px, 16% 0px, 20% 4px, 
+    25% 1px, 30% 5px, 35% 0px, 40% 4px, 45% 1px, 50% 5px, 55% 0px, 
+    60% 4px, 65% 1px, 70% 5px, 75% 0px, 80% 4px, 85% 1px, 90% 5px, 
+    95% 0px, 98% 3px, 100% 0px, 100% 100%, 0% 100%
+  );
+}
+
+.torn-paper-edge-bottom {
+  clip-path: polygon(
+    0% 0%, 100% 0%, 100% calc(100% - 4px), 98% 100%, 95% calc(100% - 3px), 
+    90% 100%, 85% calc(100% - 4px), 80% calc(100% - 2px), 75% 100%, 
+    70% calc(100% - 3px), 65% 100%, 60% calc(100% - 4px), 55% 100%, 
+    50% calc(100% - 2px), 45% 100%, 40% calc(100% - 4px), 35% 100%, 
+    30% calc(100% - 2px), 25% 100%, 20% calc(100% - 4px), 15% 100%, 
+    10% calc(100% - 2px), 5% 100%, 2% calc(100% - 4px), 0% 100%
+  );
+}
+
+/* Washi tape strips */
+.washi-tape-stars {
+  background: rgba(220, 185, 195, 0.8);
+  backdrop-filter: blur(2px);
+  border-left: 3px dashed rgba(255, 255, 255, 0.85);
+  border-right: 3px dashed rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.washi-tape-gold {
+  background: rgba(214, 184, 130, 0.82);
+  border-left: 3px dashed rgba(255, 255, 255, 0.85);
+  border-right: 3px dashed rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.washi-tape-deep {
+  background: rgba(53, 35, 60, 0.8);
+  border-left: 3px dashed rgba(255, 255, 255, 0.4);
+  border-right: 3px dashed rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+
+/* Wax seal */
+.wax-seal-celestial {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #8B2035 0%, #520F1F 60%, #300610 100%);
+  box-shadow: 
+    0 6px 14px rgba(0, 0, 0, 0.6),
+    inset 0 2px 5px rgba(255, 190, 200, 0.45),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 2px solid rgba(110, 22, 38, 0.8);
+  transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.wax-seal-celestial:hover {
+  transform: scale(1.1) rotate(4deg);
+  box-shadow: 
+    0 10px 22px rgba(0, 0, 0, 0.75),
+    inset 0 2px 5px rgba(255, 190, 200, 0.55),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.9);
+}
+
+/* Floating animation for stickers */
+@keyframes stickerDrift {
+  0%, 100% { transform: translateY(0px) rotate(var(--rot, 0deg)); }
+  50% { transform: translateY(-7px) rotate(calc(var(--rot, 0deg) + 2deg)); }
+}
+
+.animate-sticker {
+  animation: stickerDrift 5s ease-in-out infinite;
+}
+
+@keyframes starTwinkle {
+  0%, 100% { opacity: 0.4; transform: scale(0.9); }
+  50% { opacity: 1; transform: scale(1.15); filter: drop-shadow(0 0 8px #C9A96E); }
+}
+
+.animate-twinkle {
+  animation: starTwinkle 3.2s ease-in-out infinite;
+}
